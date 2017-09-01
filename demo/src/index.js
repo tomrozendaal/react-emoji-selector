@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {render} from 'react-dom'
 
 import ReactEmojiSelector from '../../src'
-import '../../src/index.css'
+import '../../src/react-emoji-selector.css'
 
 class Demo extends Component {
 
@@ -22,8 +22,8 @@ class Demo extends Component {
       <h1>react-emoji-selector Demo</h1>
       <h2>{this.state.selectedEmoji.emoji}</h2>
       <ReactEmojiSelector
-        visibleAmount={112}
-        searchPlaceholder='Search emoji' 
+        visibleAmount={91}
+        searchPlaceholder='Search emoji'
         onSelect={(e) => this.selectEmoji(e)}/>
     </div>
   }

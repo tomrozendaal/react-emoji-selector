@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import NodeEmoji from 'node-emoji'
 import { flatMap } from 'lodash'
 
-const DEFAULT_VISIBLE_AMOUNT = 90
+const DEFAULT_VISIBLE_AMOUNT = 78
 const DEFAULT_SEARCH_PLACEHOLDER = 'Search'
 
 export default class ReactEmojiSelector extends React.Component {
