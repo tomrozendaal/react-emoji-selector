@@ -26,7 +26,7 @@ Use the component:
 class MyComponent extends React.Component {
 
   selectEmoji(emoji) {
-    this.setState({emoji})
+    this.setState({emoji}) // {emoji: "🚀", key: "rocket"}
   }
 
   render() {
@@ -39,6 +39,15 @@ class MyComponent extends React.Component {
   }
 }
 ```
+
+### Props
+Component props:
+
+| Prop  | Default  | Type  | Description  |
+|---|---|---|---|
+| visibleAmount  | 78  | int  | Amount of emojis shown before Show-more button is pressed   |
+| searchPlaceholder  | Search  | string  | Placeholder text for search input   |
+| onSelect  | -  | func  | Callback function called after selecting an emoji   |
 
 [build-badge]: https://img.shields.io/travis/tomrozendaal/react-emoji-selector/master.png?style=flat-square
 [build]: https://travis-ci.org/tomrozendaal/react-emoji-selector
