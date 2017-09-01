@@ -1,10 +1,16 @@
 # react-emoji-selector
 
+A React tool to select Emojis.
+
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-A React tool to select Emojis.
+### Installing
+To install react-emoji-selector use npm:
+```
+npm install react-emoji-selector
+```
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
