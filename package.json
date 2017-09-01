@@ -1,7 +1,7 @@
 {
   "name": "react-emoji-selector",
   "version": "1.0.0",
-  "description": "react-emoji-selector React component",
+  "description": "A React tool to select Emojis",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -27,11 +27,21 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
-  "author": "",
-  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomrozendaal/react-emoji-selector.git"
+  },
+  "author": "Tom Rozendaal",
   "license": "MIT",
-  "repository": "",
+  "bugs": {
+    "url": "https://github.com/tomrozendaal/react-emoji-selector/issues"
+  },
+  "homepage": "https://github.com/tomrozendaal/react-emoji-selector",
   "keywords": [
-    "react-component"
+    "react",
+    "emoji",
+    "selector",
+    "picker",
+    "emojis"
   ]
 }
