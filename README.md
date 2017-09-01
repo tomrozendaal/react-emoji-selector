@@ -6,10 +6,38 @@ A React tool to select Emojis.
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-### Installing
-To install react-emoji-selector use npm:
+## Quick Start
+
+### Installation
+Install react-emoji-selector using npm
+```bash
+npm install --save react-emoji-selector
 ```
-npm install react-emoji-selector
+
+### Usage
+Import the component and stylesheet:
+```javascript static
+import ReactEmojiSelector from 'react-emoji-selector'
+import 'react-emoji-selector/lib/react-emoji-selector.css'
+```
+
+Use the component:
+```javascript static
+class MyComponent extends React.Component {
+
+  selectEmoji(emoji) {
+    this.setState({emoji})
+  }
+
+  render() {
+    return (
+      <ReactEmojiSelector
+                visibleAmount={10}
+                searchPlaceholder='Search emoji'
+                onSelect={(emoji) => this.selectEmoji(emoji)}/>
+    )
+  }
+}
 ```
 
 [build-badge]: https://img.shields.io/travis/tomrozendaal/react-emoji-selector/master.png?style=flat-square

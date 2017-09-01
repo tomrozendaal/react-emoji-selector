@@ -13,9 +13,9 @@ describe('ReactEmojiSelector', () => {
       expect(wrapper.find('.react-emoji-selector-emoji')).to.have.length(10)
   })
 
-  it('to have 90 emojis when no amount specified', () => {
+  it('to have 78 emojis when no amount specified', () => {
       const wrapper = shallow(<ReactEmojiSelector />);
-      expect(wrapper.find('.react-emoji-selector-emoji')).to.have.length(90)
+      expect(wrapper.find('.react-emoji-selector-emoji')).to.have.length(78)
   })
 
   it('returns the selected emoji', () => {
