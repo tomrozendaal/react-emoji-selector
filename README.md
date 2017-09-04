@@ -6,6 +6,9 @@ A React tool to select Emojis.
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
+<img width="35%" alt="emoji selector with search"
+  src="https://cl.ly/3B0O2E3w2u1X/react-emoji-selector.gif"/>
+
 ## Quick Start
 
 ### Installation
@@ -47,6 +50,7 @@ Component props:
 |---|---|---|---|
 | visibleAmount  | 78  | int  | Amount of emojis shown before Show-more button is pressed   |
 | searchPlaceholder  | Search  | string  | Placeholder text for search input   |
+| showMoreButtonText  | Show more  | string  | 'Show more' button text   |
 | onSelect  | -  | func  | Callback function called after selecting an emoji   |
 
 [build-badge]: https://img.shields.io/travis/tomrozendaal/react-emoji-selector/master.png?style=flat-square

@@ -3,6 +3,7 @@ import {render} from 'react-dom'
 
 import ReactEmojiSelector from '../../src'
 import '../../src/react-emoji-selector.css'
+import './index.css'
 
 class Demo extends Component {
 
@@ -20,11 +21,14 @@ class Demo extends Component {
   render() {
     return <div>
       <h1>react-emoji-selector Demo</h1>
-      <h2>{this.state.selectedEmoji.emoji}</h2>
-      <ReactEmojiSelector
-        visibleAmount={91}
-        searchPlaceholder='Search emoji'
-        onSelect={(e) => this.selectEmoji(e)}/>
+      <div id='container'>
+        <h2>{this.state.selectedEmoji.emoji}</h2>
+        <ReactEmojiSelector
+          visibleAmount={91}
+          searchPlaceholder='Search emoji'
+          showMoreButtonText='More'
+          onSelect={(e) => this.selectEmoji(e)}/>
+      </div>
     </div>
   }
 }
