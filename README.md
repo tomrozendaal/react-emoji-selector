@@ -6,7 +6,9 @@ A React tool to select Emojis.
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-<img width="35%" alt="emoji selector with search"
+## Demo
+<a href="http://jsbin.com/konocisajo/edit?html,js,output">Live demo</a><br/><br/>
+<img width="40%" alt="emoji selector with search"
   src="https://cl.ly/3B0O2E3w2u1X/react-emoji-selector.gif"/>
 
 ## Quick Start
